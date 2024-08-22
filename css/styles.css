@@ -19,7 +19,7 @@ body::before{
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: url(../imagen/Captura\ de\ tela\ 2024-08-20\ 200517.png) no-repeat center top fixed;
+    background: url(../img/skyscraper-south-america-pinheiros-river-brazil-wallpaper-preview.jpg) no-repeat center top fixed;
     background-size: cover;
     opacity: 0.5;
     z-index: -1;
@@ -67,9 +67,26 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    text-decoration: none; /* Remover sublinhado dos links */
+    color: #007bff; /* Cor dos links */
 }
-/*section#home img{
+section#home img{
 
     max-width: 100px;
     border-radius: 50%;
 }
+
+#contato {
+    color: #333; /* Cor do texto */
+    
+}
+
+#contato a {
+    color: #007bff; /* Cor dos links */
+    text-decoration: none; /* Remover sublinhado dos links */
+}
+
+#contato a:hover {
+    color: #0056b3; /* Cor dos links ao passar o mouse */
+}
+
