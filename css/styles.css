@@ -90,3 +90,20 @@ section#home img{
     color: #0056b3; /* Cor dos links ao passar o mouse */
 }
 
+.email-icon, #linkedin-icon{
+    vertical-align: middle;
+    margin-right: 5px; /* Espaço entre a imagem e o texto */
+    width: 20px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    display: inline-block; /* Garante que a imagem fique ao lado do texto */
+}
+#contato p {
+    display: flex;
+    align-items: center; /* Alinha verticalmente a imagem e o texto */
+}
+
+#contato p img {
+    max-width: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}

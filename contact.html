@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,30 +12,58 @@
 <body>
     <header>
         <nav>
-             <ul>
+            <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">Sobre mim</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
+              
                 <li><a href="contact.html">Contato</a></li>
-            </ul>  
+            </ul>
         </nav>
 
-      
+
 
     </header>
-    <main><section id="contato">
-        <h2>Contato</h2>
-        <p>Email: <a href="mailto:lucasparanhos1998@gmail.com">lucasparanhos1998@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/lucas-paranhos" target="_blank">linkedin.com/in/lucas-paranhos</a></p>
-    </section>
-</main>
+    <main>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p> <img src="./icons/o-email.png" alt="" class="email-icon">
+                Email: <a href="mailto:lucasparanhos1998@gmail.com">lucasparanhos1998@gmail.com</a></p>
+
+            <p>
+                 <img src="./icons/linkedin.png" alt="" class="linkedin-icon">
+                LinkedIn: <a href="https://linkedin.com/in/lucas-paranhos"
+                    target="_blank">linkedin.com/in/lucas-paranhos</a>
+            
+            <form action="mailto:lucasparanhos1998@gmail.com" method="post" enctype="text/plain">
+            </p>
+                <br />
+                <h2>Formulário de Contato</h2>
+                <br />
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+
+        </section>
+    </main>
     <footer>
         <p>&copy; 2024 Lucas Para. Todos os direitos reservados.</p>
         <div>
             <a href="https://github.com/paranhoslukas" target="_blank" style="color: white; margin: 0 10px;">GitHub</a>
-            <a href="https://linkedin.com/in/lucas-paranhos" target="_blank" style="color: white; margin: 0 10px;">LinkedIn</a>
-        </div></footer>
+            <a href="https://linkedin.com/in/lucas-paranhos" target="_blank"
+                style="color: white; margin: 0 10px;">LinkedIn</a>
+        </div>
+    </footer>
 
 </body>
 </body>
+
 </html>
