@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotações</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <form name="formCotacoes">
+        <label>Cotações atual das moedas</label>
+        <select id="moeda" name="moeda" >
+            <option value="USD-BRL">Dolar X Real</option>
+            <option value="BRL-USD">Real X Dolar</option>
+            <option value="EUR-BRL">Euro X Real</option>
+            <option value="BRL-EUR">Real X Euro</option>
+            <option value="BTC-BRL">Bitcoin X Real</option>
+            <option value="BRL-BTC">Real X Bitcoin</option>
+        </select>
+        <button>Buscar</button>
+    </form>
+
+    <div id="trazerMoeda"></div>
+    <script src="./app.js"></script>
+</body>
+</html>

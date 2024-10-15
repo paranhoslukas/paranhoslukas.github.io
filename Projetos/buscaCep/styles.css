@@ -1,0 +1,25 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;  
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #7f7f7f;
+    border-radius: 8px;
+}
+form div {
+    margin: 4px 0;
+}
+
+form div input {
+    padding: 8px;
+    outline: none;
+    width: 100%;
+    border: 1px solid #7f7f7f;
+    border-radius: 4px;
+    font-size: 16px;
+}
